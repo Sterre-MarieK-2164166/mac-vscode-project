@@ -4,17 +4,10 @@
 int main()
 {
     Date today{}; // define object
-    int input{};
 
-    std::cout << "Day: ";
-    std::cin >> input;
-    today.set_day(input);
-    std::cout << "Month: ";
-    std::cin >> input;
-    today.set_month(input);
-    std::cout << "Year: ";
-    std::cin >> input;
-    today.set_year(input);
+    today.set_day(13);
+    today.set_month(4);
+    today.set_year(2024);
 
     std::cout << "Printing date...\n";
     std::cout << today.get_day() << "-";
