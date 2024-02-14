@@ -1,5 +1,9 @@
 #include "oef4.2.2.h"
 
+Date::Date(int day, int month, int year) : m_day{day}, m_month{month}, m_year{year}
+{
+}
+
 int Date::get_day() const
 {
     return m_day;

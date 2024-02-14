@@ -6,6 +6,7 @@ private:
     int m_year{};
 
 public:
+    Date(int day, int month, int year);
     int get_day() const;
     int get_month() const;
     int get_year() const;
